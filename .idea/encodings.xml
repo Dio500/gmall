@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/gmall-parent/common/common-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-parent/common/service-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-parent/model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-parent/server-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-parent/service-client/service-cart-client1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-parent/service-client/service-item-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-parent/service-client/service-list-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-parent/service-client/service-payment-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-parent/service-client/service-product-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-parent/service-client/service-user-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-parent/service/service-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-parent/service/service-item/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-parent/service/service-list/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-parent/service/service-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-parent/service/service-product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-parent/service/service-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-parent/web-all/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-parent/web-all/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-parent/web-all/web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thymeleaf-demo/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

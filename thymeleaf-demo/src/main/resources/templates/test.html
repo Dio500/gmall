@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--普通字符串展示-->
+<p th:text="${abc}"></p>
+<!--带html标签的字符串展示-->
+<p th:utext="${aaa}"></p>
+<!--list循环输出-->
+<table>
+    <th>序号</th>
+    <th>id</th>
+    <th>姓名</th>
+    <th>地址</th>
+    <tr th:each="user,abc:${userList}">
+        <td th:text="${abc.count}"></td>
+        <td th:text="${user.id}"></td>
+        <td th:text="${user.name}"></td>
+        <td th:text="${user.address}"></td>
+    </tr>
+</table>
+<!--日期输出-->
+<p th:text="${#dates.format(testDate, 'yyyy-MM-dd HH:mm:ss')}"></p>
+<!--条件判断,正向为true的时候做什么事情-->
+<div th:unless="${age}>=18">
+    <p>未成年人</p>
+</div>
+<div th:unless="${age}<18">
+    <p>成年人</p>
+</div>
+<!--map的输出-->
+<div th:each="m, a:${map}">
+    <p th:text="${a.count}"></p>
+    <p th:text="${m.key}"></p>
+    <p th:text="${m.value}"></p>
+</div>
+<!--map是否包含某个key-->
+<p th:if="${#maps.containsKey(map, 'address')}">map包含address这个key</p>
+<p th:unless="${#maps.containsKey(map, 'address')}">map不包含address这个key</p>
+<!--字符串的处理:截取 分割 替换-->
+<p th:text="${#strings.replace(abc,'!','')}"></p>
+<!--超链接处理-->
+<a th:href="@{${url}(username='测试名字', password='123456')}">点我跳转到百度</a>
+<!--图片展示-->
+<img th:src="${image}">
+<!--数字处理-->
+<div th:each="i:${#numbers.sequence(1,10,2)}">
+    <p th:text="${i}"></p>
+</div>
+</body>
+</html>
